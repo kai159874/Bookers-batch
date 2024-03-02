@@ -1,0 +1,94 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.success {
+  color: #00FF00;
+  font-size: 12px;
+  margin: 24px;
+}
+
+.header {
+  margin-top: 28px;
+  margin-left: 28px;
+  font-size: 24px;
+}
+
+.index-table {
+  max-width: 800px;
+  margin: 14px 28px 0;
+  font-size: 13px;
+}
+
+.title {
+  width: 200px;
+  padding: 4px;
+  overflow-wrap: break-word;
+}
+
+.body {
+  width: 480px;
+  padding: 4px;
+  overflow-wrap: break-word;
+}
+
+
+.show-title,
+.show-body {
+  margin: 32px 64px;
+  font-size: 14px;
+}
+
+.link-area {
+   margin: 14px 28px 0;
+} 
+
+.link-area p {
+  display: inline;
+}
+
+.link,
+.link-area p {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+
+.button {
+  display: block;
+  margin: 12px 0;
+  padding: 2px;
+}
+
+.input-space {
+  margin: 14px 28px 0;
+  font-size: 12px;
+}
+
+.input-space p {
+  margin-top: 12px;
+}
+
+.text-area {
+  display: inline-block;
+  height: 4em;
+}
+
+.error-box {
+  border: 2px solid red;
+  max-width: 600px;
+}
+
+.error-count {
+  font-weight: bold;
+  color: #FFF;
+  padding: 8px 16px;
+  background: #a00;
+}
+
+.error-mes {
+  padding: 32px 64px;
+  background: #eee;
+}
+
